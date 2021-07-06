@@ -1,8 +1,8 @@
 {
-  "name": "my-gatsby-site",
+  "name": "lfpaganini-gatsby-site",
   "version": "1.0.0",
   "private": true,
-  "description": "My Gatsby Site",
+  "description": "Lavinia Paganini gatsby website",
   "author": "Lavínia Paganini",
   "keywords": [
     "gatsby"
@@ -14,11 +14,28 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
+  "prettier": {
+    "singleQuote": true,
+    "tabWidth": 2,
+    "semi": false
+  },
   "dependencies": {
-    "gatsby": "^3.4.1",
+    "@fontsource/kanit": "^4.4.5",
+    "@fontsource/kodchasan": "^4.4.5",
+    "@react-icons/all-files": "^4.1.0",
+    "babel-plugin-styled-components": "^1.12.0",
+    "gatsby-plugin-google-fonts-v2": "^1.0.0",
     "gatsby-plugin-sitemap": "^4.1.0",
-    "gatsby-source-contentful": "^5.5.0",
+    "gatsby-plugin-styled-components": "^4.5.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-device-detect": "^1.17.0",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.3.0",
+    "styled-reset": "^4.3.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "gatsby": "^3.5.1",
+    "typescript": "^4.2.4"
   }
 }
