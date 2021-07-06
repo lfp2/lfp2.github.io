@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://lfpaganini-gatsby-site/./src/pages/projects.js"],"names":[],"mappings":"0JAMA,UAJqB,WACnB,OAAO","file":"component---src-pages-projects-js-35678a23f0c41a01c428.js","sourcesContent":["import * as React from 'react'\n\nconst ProjectsPage = () => {\n  return <h1>Projects</h1>\n}\n\nexport default ProjectsPage\n"],"sourceRoot":""}

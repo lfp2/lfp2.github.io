@@ -1,0 +1,2 @@
+(self.webpackChunklfpaganini_gatsby_site=self.webpackChunklfpaganini_gatsby_site||[]).push([[678],{7704:function(e,n,a){"use strict";a.r(n);var t=a(7294);n.default=function(){return t.createElement("h1",null,"Home Page")}}}]);
+//# sourceMappingURL=component---src-pages-index-js-ea1b4bc93bbac2c84967.js.map
