@@ -11,7 +11,7 @@ const Wrapper = styled.div`
   margin-left: auto;
 `
 
-const Event = styled.p`
+const Venue = styled.p`
   flex: 1;
   font-weight: bold;
   margin-right: 16px;
@@ -28,8 +28,9 @@ const ResearchPage = () => {
     <>
       <title>Research</title>
       <h1>Research</h1>
+      <h2>Conferences</h2>
       <Wrapper>
-        <Event>MSR Hackathon 2021</Event>
+        <Venue>MSR Hackathon 2021</Venue>
         <Description>
           Yong, M. S., Paganini, L., Qiu, H. S., & Calderón, J. B. S. (2021,
           May). The Diversity-Innovation Paradox in Open-Source Software. In
@@ -38,23 +39,35 @@ const ResearchPage = () => {
         </Description>
       </Wrapper>
       <Wrapper>
-        <Event>ICGJ 2020</Event>
+        <Venue>ICGJ 2020</Venue>
         <Description>
           Paganini, L., & Gama, K. (2020, August). Engaging women’s
           participation in hackathons: A qualitative study with participants of
           a female-focused hackathon. In International Conference on Game Jams,
-          Hackathons and Game Creation Events 2020 (pp. 8-15).
+          Hackathons and Game Creation Venues 2020 (pp. 8-15).
           <br />
           <b>Best paper award</b>
         </Description>
       </Wrapper>
       <Wrapper>
-        <Event>CHASE 2020</Event>
+        <Venue>CHASE 2020</Venue>
         <Description>
           Paganini, L., & Gama, K. (2020, June). A preliminary study about the
           low engagement of female participation in hackathons. In Proceedings
           of the IEEE/ACM 42nd International Conference on Software Engineering
           Workshops (pp. 193-194).
+        </Description>
+      </Wrapper>
+      <h2>Journals</h2>
+      <Wrapper>
+        <Venue>
+          IEEE Revista Iberoamericana de Tecnologias del Aprendizaje
+        </Venue>
+        <Description>
+          Paganini, L., & Gama, K. (2020). Female participation in hackathons: A
+          case study about gender issues in application development marathons.
+          IEEE Revista Iberoamericana de Tecnologias del Aprendizaje, 15(4),
+          326-335.
         </Description>
       </Wrapper>
     </>
