@@ -24,6 +24,11 @@ export const GlobalStyle = createGlobalStyle`
   h1 {
     font-family: Kanit;
     font-size: 24px;
-    margin: 16px;
+    margin: 16px 0 16px 0;
+  }
+  h2 {
+    font-family: Kanit;
+    font-size: 18px;
+    margin: 14px 0 14px 0;
   }
 `
