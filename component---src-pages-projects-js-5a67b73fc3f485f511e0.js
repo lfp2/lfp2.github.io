@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunklfpaganini_gatsby_site=self.webpackChunklfpaganini_gatsby_site||[]).push([[853],{7219:function(e,n,t){t.r(n);var a=t(7294);n.default=()=>a.createElement(a.Fragment,null,a.createElement("h1",null,"Projects"),a.createElement("p",null,"Under construction"))}}]);
+//# sourceMappingURL=component---src-pages-projects-js-5a67b73fc3f485f511e0.js.map

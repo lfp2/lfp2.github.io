@@ -1,2 +1,0 @@
-(self.webpackChunklfpaganini_gatsby_site=self.webpackChunklfpaganini_gatsby_site||[]).push([[853],{7744:function(e,n,t){"use strict";t.r(n);var a=t(7294);n.default=function(){return a.createElement(a.Fragment,null,a.createElement("h1",null,"Projects"),a.createElement("p",null,"Under construction"))}}}]);
-//# sourceMappingURL=component---src-pages-projects-js-ba3e71aac86f572042d9.js.map
