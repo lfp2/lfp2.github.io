@@ -50,6 +50,7 @@ export default function Menu({ setLight, isLight }) {
         <StyledLink to="/">Home Page</StyledLink>
         <StyledLink to="/projects">Projects</StyledLink>
         <StyledLink to="/research">Research</StyledLink>
+        <StyledLink to="/grants">Grants and Fellowships</StyledLink>
         <Icons>
           <IconLink href="https://github.com/lfp2">
             <FaGithub />
