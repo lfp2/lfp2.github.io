@@ -4,7 +4,10 @@ const ProjectsPage = () => {
   return (
     <>
       <h1>Projects</h1>
-      <p>Under construction</p>
+      <h2>Hack GRRRL</h2>
+      <p></p>
+      <h2>Casos de Conflito</h2>
+      <p></p>
     </>
   )
 }
