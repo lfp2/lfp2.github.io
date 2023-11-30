@@ -18,6 +18,9 @@ export const GlobalStyle = createGlobalStyle`
   *, *:before, *:after {
     box-sizing: inherit;
   }
+  p{
+    margin: 6px 0 6px 0;
+  }
   b {
     font-weight: bold;
   }
