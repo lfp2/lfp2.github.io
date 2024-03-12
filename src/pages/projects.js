@@ -30,7 +30,7 @@ const ProjectsPage = () => {
     <>
       <h1>Projects</h1>
       <Square>
-        <StaticImage src="../images/hack_grrrl.jpg" alt="Picture with Hack GRRRL mentors hugging" placeholder="blurred" layout="constrained" width={200} aspectRatio={16 / 9} quality={100}/>
+        <StaticImage src="../images/hack_grrrl.jpg" maxWidth={400} aspectRatio={21/9} quality={100}/>
         <Title>Hack GRRRL</Title>
         <Description>Hack GRRRL is a women-focused hackathon, an time-bounded event with duration between 24 to 48 hours, where participants are part of multidisciplinary teams and create a tech solution for a problem. I co-founded and organized the first Hack GRRRL in Recife with 231 enrollments and 26 participants in 2019. We achieved 55 participants on the online version in 2021, where all the groups finished the hackathon with an MVP.</Description>
         <Description>Learn more about Hack GRRRL <a href="https://hackgrrrl.com/" target="_blank" rel="noreferrer external">here.</a></Description>
