@@ -11,6 +11,13 @@ export const GlobalStyle = createGlobalStyle`
     color: ${({ theme }) => theme.text};
     text-align: center;
   }
+  a {
+    font-weight: bold;
+    color:  ${({ theme }) => theme.highlight};
+  }
+  p {
+    margin: 6px 0 6px 0;
+  }
   body {
     background-color: ${({ theme }) => theme.body};
     transition: background-color 1000ms ease;
