@@ -27,12 +27,25 @@ const GrantsPage = () => {
   return (
     <>
       <h1>Grants and Fellowships</h1>
+      <h2>2024</h2>
+      <Wrapper>
+        <Name>Hackcon 2024</Name>
+        <Description>
+          GitHub Campus Expert program covered the registration and travel costs for Hackcon
+        </Description>
+      </Wrapper>
       <h2>2023</h2>
       <Wrapper>
         <Name>WomENcourage 2023 Scholarship</Name>
         <Description>
           Covered the registration and travel costs for the WomENcourage 2023
           event
+        </Description>
+      </Wrapper>
+      <Wrapper>
+        <Name>Hackcon XI</Name>
+        <Description>
+          GitHub Campus Expert program covered the registration and travel costs for Hackcon XI
         </Description>
       </Wrapper>
       <Wrapper>

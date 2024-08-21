@@ -30,6 +30,10 @@ const ResearchPage = () => {
       <h1>Research</h1>
       <h2>Conferences</h2>
       <Wrapper>
+        <Venue>GE@ICSE 2023</Venue>
+        <Description>Paganini, L., Gama, K., Nolte, A., & Serebrenik, A. (2023, May). Opportunities and constraints of women-focused online hackathons. In 2023 IEEE/ACM 4th Workshop on Gender Equity, Diversity, and Inclusion in Software Engineering (GEICSE) (pp. 33-40). IEEE.</Description>
+      </Wrapper>
+      <Wrapper>
         <Venue>MSR Hackathon 2021</Venue>
         <Description>
           Yong, M. S., Paganini, L., Qiu, H. S., & Calderón, J. B. S. (2021,

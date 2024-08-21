@@ -2,9 +2,20 @@ import * as React from 'react'
 import styled from 'styled-components'
 import { StaticImage } from 'gatsby-plugin-image'
 
+const Wrapper = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: start;
+  margin-top: 16px;
+  margin-right: auto;
+  margin-left: auto;
+  gap: 10px 10px;
+`
+
 const Square = styled.div`
-min-width: 200px;
-max-width: 500px;
+min-width: 100px;
+max-width: 350px;
 min-height: 200px;
 display: flex;
 flex-wrap: wrap;
@@ -23,12 +34,11 @@ const Description = styled.p`
 `
 
 
-
-
 const ProjectsPage = () => {
   return (
     <>
       <h1>Projects</h1>
+      <Wrapper>
       <Square>
         <StaticImage src="../images/hack_grrrl.jpg" maxWidth={400} aspectRatio={21/9} quality={100}/>
         <Title>Hack GRRRL</Title>
@@ -41,6 +51,13 @@ const ProjectsPage = () => {
         <Description>Field Day brings together student leaders from different regional communities to hang out, become friends, learn from each other's mistakes and successes, and solve shared problems. I organized the first GitHub Field day in Brasil, which had 26 participants from different tech communities in Recife (e.g., Afro Python, PyLadies, UXCO).</Description>
         <Description>Learn more about GitHub Field Day <a href="https://githubfieldday.com/" target="_blank" rel="noreferrer external">here.</a></Description>
       </Square>
+      <Square>
+        <StaticImage src="../images/casos_de_conflito.jpg" maxWidth={400} aspectRatio={21/9} quality={100}/>
+        <Title>Casos de Conflito</Title>
+        <Description>Casos de conflito was a streaming show on the GitHub Education Twitch, where weekly guests discussed about their journey on Computer Science and the challenges faced there.</Description>
+        <Description>You can check some of the episodes (Portuguese only) <a href="https://www.twitch.tv/videos/1565869900?collection=2UvO3laCEBcszQ" target="_blank" rel="noreferrer external">here.</a></Description>
+      </Square>
+      </Wrapper>
     </>
   )
 }
