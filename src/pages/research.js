@@ -30,6 +30,14 @@ const ResearchPage = () => {
       <h1>Research</h1>
       <h2>Conferences</h2>
       <Wrapper>
+        <Venue>MSR 2026</Venue>
+        <Description>Halmans, S., Paganini, L., Serebrenik, A., & Nolte, A. (2026). HackRep: A Large-Scale Dataset of GitHub Hackathon Projects. (To appear)</Description>
+      </Wrapper>
+      <Wrapper>
+        <Venue>FSE 2025</Venue>
+        <Description>Thakur, A. M., Milewicz, R., Jahanshahi, M., Paganini, L., Vasilescu, B., & Mockus, A. (2025). Scientific open-source software is less likely to become abandoned than one might think! lessons from curating a catalog of maintained scientific software. Proceedings of the ACM on Software Engineering, 2(FSE), 2216-2239.</Description>
+      </Wrapper>
+      <Wrapper>
         <Venue>GE@ICSE 2023</Venue>
         <Description>Paganini, L., Gama, K., Nolte, A., & Serebrenik, A. (2023, May). Opportunities and constraints of women-focused online hackathons. In 2023 IEEE/ACM 4th Workshop on Gender Equity, Diversity, and Inclusion in Software Engineering (GEICSE) (pp. 33-40). IEEE.</Description>
       </Wrapper>

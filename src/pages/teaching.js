@@ -28,7 +28,16 @@ const Teaching = () => {
     <>
       <title>Teaching</title>
       <h1>Teaching</h1>
+      <h2>2025</h2>
+      <Wrapper>
+        <Venue>2IMP40 - Empirical Methods</Venue>
+        <Description>Helped grading Empirical Methods projects and exams, which includes preparing the design of a study. Gave the workshop on How to Read a Paper, and class on advanced mining software repository.</Description>
+      </Wrapper>
       <h2>2024</h2>
+      <Wrapper>
+        <Venue>2IMP40 - Empirical Methods</Venue>
+        <Description>Helped grading Empirical Methods projects and exams, which includes preparing the design of a study. Gave the workshop on Mining Software Repository.</Description>
+      </Wrapper>
       <Wrapper>
         <Venue>2IMP25 - Software Evolution</Venue>
         <Description>Helped grading Software Evolution projects and exams, which includes groups of students making an open-source contribution. Also did a class on Development Automation, which covered the topics CI, Workflows, and Bots.</Description>

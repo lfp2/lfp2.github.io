@@ -29,6 +29,22 @@ const Service = () => {
       <title>Service</title>
       <h1>Service</h1>
       <Wrapper>
+        <Venue>MSR 2026</Venue>
+        <Description>Social Media Co-chair of MSR</Description>
+      </Wrapper>
+      <Wrapper>
+        <Venue>CHASE 2026</Venue>
+        <Description>PC Member of CHASE</Description>
+      </Wrapper>
+      <Wrapper>
+        <Venue>ICSE 2026</Venue>
+        <Description>Member of the Shadow PC Program</Description>
+      </Wrapper>
+      <Wrapper>
+        <Venue>ICSE 2025</Venue>
+        <Description>Student volunteer of ICSE 2025</Description>
+      </Wrapper>
+      <Wrapper>
         <Venue>ICSE 2025 - SMeW </Venue>
         <Description>Organizing Committee of the Student Mentoring Workshop</Description>
       </Wrapper>
